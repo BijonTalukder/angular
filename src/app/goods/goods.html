@@ -1,0 +1,6 @@
+<h2>Create Goods</h2>
+<form (ngSubmit)="onSubmit()" novalidate>
+  <label for="name">Goods Name:</label>
+  <input id="name" type="text" name="name" [(ngModel)]="goodsName" required />
+  <button type="submit">Create</button>
+</form>
